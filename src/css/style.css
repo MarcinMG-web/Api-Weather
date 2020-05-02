@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: burlywood;
+    background-color: black;
+    background: url("tlo.jpg") no-repeat 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex 1 1 100%;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+    margin-top: 100px;
+   
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #df8e00;
+    
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2 ease-in-out;
+}
+
+header input:focus{
+    background-color: rgba(255,255,255,0.8);
+}
+
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.location .city{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .data{
+    color: #FFF;
+    font-size: 16px;
+}
+
+.current .tem{
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0,0,0,0.6);
+}
+
+.current .temp span{
+    font-weight: 500;
+}
+
+.current .weather{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .h1-low{
+   color: #FFF;
+   font-size: 24px;
+   font-weight: 900;
+   text-shadow: 0px 3px rgba(0, 0, 0, 0.4);    
+}
+
+.current .pressure {
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.current .humidity {
+    font-weight: 900;
+    margin-top: 5px;
+}
+
