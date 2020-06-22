@@ -7,7 +7,7 @@
 body{
     color: burlywood;
     background-color: black;
-    background: url("tlo.jpg") no-repeat 100%;
+    background: #224941 url('tlo.jpg') no-repeat center center/cover;
     align-items: center;
     justify-content: center;
     display: flex 1 1 100%;
@@ -26,7 +26,6 @@ header{
     align-items: center;
     padding: 50px 15px 15px;
     margin-top: 100px;
-   
 }
 
 header input{
@@ -50,6 +49,12 @@ header input:focus{
     background-color: rgba(255,255,255,0.8);
 }
 
+header input:active{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+}
+
 main{
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -60,9 +65,9 @@ main{
 }
 
 .location .city{
-    color: #FFF;
+      color: #FFF;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 

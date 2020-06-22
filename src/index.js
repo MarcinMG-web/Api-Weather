@@ -9,9 +9,9 @@ searchbox.addEventListener('keypress', setQuery);
 function setQuery(evt){
     if (evt.keyCode == 13){
         getResults(searchbox.value);
-       
-     } 
-}
+        this.value = " ";   
+       }  
+} 
 
 
 function getResults (query) {
@@ -46,7 +46,7 @@ function displayResults(weather){
     let humidity = document.querySelector(".current .humidity");
     humidity.innerText = `Humidity: ${weather.main.humidity} %`;
 
-}
+} 
 
 function dateBuilder(d) {
 
