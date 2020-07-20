@@ -13,4 +13,4 @@ Download project on yours PC. Open the terminal and install packages.
 
 Search city to check the weather.
 
-Used technologies: HTML5, CSS Flex Box Layout, Javascript ES6, Fetch.
+Used technologies: HTML5, CSS Flex Box Layout, Javascript ES6, Fetch API.
