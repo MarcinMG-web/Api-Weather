@@ -1,6 +1,6 @@
 # Api-Weather
 
-The app is connected with the https://openweathermap.org/api
+The app is connected to the https://openweathermap.org/api
 
 To check the weather before you go, use my application. It’s simple!
 Download project on yours PC, open the terminal and install package.
